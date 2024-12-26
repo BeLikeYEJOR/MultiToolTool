@@ -1,0 +1,16 @@
+@import "./default";
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  border-radius: 18px;
+  height: 40px;
+  font-weight: bolder;
+  background-color: $color1;
+  text-decoration: none;
+}
+
+a {
+  color: whitesmoke;
+}

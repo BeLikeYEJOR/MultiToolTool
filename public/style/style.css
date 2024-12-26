@@ -1,0 +1,30 @@
+body,
+html {
+  height: 100%;
+}
+body body,
+html body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #333333;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  border-radius: 18px;
+  height: 40px;
+  font-weight: bolder;
+  background-color: #212121;
+  text-decoration: none;
+}
+
+a {
+  color: whitesmoke;
+}/*# sourceMappingURL=style.css.map */
