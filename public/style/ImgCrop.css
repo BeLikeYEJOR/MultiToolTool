@@ -80,21 +80,33 @@ img {
   background-color: #818181;
 }
 
-body {
-  gap: 10px;
+input[type=file] {
+  display: none;
 }
 
-.link {
+nav {
+  position: absolute;
+  top: 0;
+  width: 50%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 200px;
-  border-radius: 18px;
-  height: 40px;
-  font-weight: bolder;
-  background-color: #212121;
-  text-decoration: none;
+  align-items: flex-start;
+  font-size: 2em;
 }
-a {
-  color: whitesmoke;
-}/*# sourceMappingURL=style.css.map */
+
+#preview-container {
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  position: absolute;
+  top: 0;
+}
+
+h2 {
+  position: absolute;
+  top: 46%;
+  z-index: 10;
+}/*# sourceMappingURL=ImgCrop.css.map */

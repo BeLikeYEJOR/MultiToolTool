@@ -1,0 +1,32 @@
+@import "./_default";
+
+input[type="file"] {
+  display: none;
+}
+
+nav {
+  //   background-color: red;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 2em;
+}
+#preview-container {
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  position: absolute;
+  top: 0;
+}
+
+h2 {
+  position: absolute;
+  top: 46%;
+  z-index: 10;
+}
