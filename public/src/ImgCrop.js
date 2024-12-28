@@ -5,6 +5,7 @@ const croppedPreview = document.getElementById("cropped-preview");
 const cropButton = document.getElementById("crop-button");
 const downloadButton = document.getElementById("download-button");
 const imageLabel = document.getElementById("fileSelect");
+const imageName = document.querySelector("#imgName");
 
 // Handle image upload
 imageInput.addEventListener("change", (event) => {
@@ -41,7 +42,7 @@ downloadButton.addEventListener("click", () => {
     const canvas = cropper.getCroppedCanvas();
     const link = document.createElement("a");
     link.href = canvas.toDataURL();
-    link.download = "cropped-image.png";
+    (link.download = imageName.value.toString()), ".png";
     link.click();
   }
 });

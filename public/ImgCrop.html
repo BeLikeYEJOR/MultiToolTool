@@ -34,7 +34,7 @@
       >Back
     </a>
 
-    <h1>Image Cropper</h1>
+    <h1 id="title">Image Cropper</h1>
     <div>
       <img id="image" style="max-width: 400px" />
     </div>
@@ -51,12 +51,19 @@
       </div>
     </div>
 
-    <div>
+    <div id="other-stuff">
+      <br />
+      <input type="text" id="imgName" value="cropped-image" required />
       <br />
       <button class="button" id="download-button" style="font-weight: bolder">
         Download
       </button>
     </div>
+
+    <h1 class="warning" id="topWar">**WARNING**</h1>
+    <h1 class="warning" id="bottomWar">
+      THE IMAGE CAN ONLY BE DOWNLOADED AS A PNG
+    </h1>
 
     <script src="src/ImgCrop.js"></script>
   </body>

@@ -28,6 +28,8 @@ img {
   outline: none;
   font-size: 20px;
   border: none;
+  margin-right: auto;
+  margin-left: auto;
   color: whitesmoke;
   padding: 10px 20px;
   border-radius: 10px;

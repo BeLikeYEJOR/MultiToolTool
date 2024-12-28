@@ -20,9 +20,43 @@ nav {
   height: 100px;
 }
 
-h1 {
+#title {
   position: absolute;
   top: 0;
+}
+
+.warning {
+  position: absolute;
+  bottom: 0;
+}
+#topWar {
+  bottom: 40px;
+}
+#bottomWar {
+  bottom: 0px;
+}
+
+#imgName {
+  outline: none;
+  border: none;
+  background-color: $color3;
+  border-radius: 10px;
+  width: 200px;
+  color: whitesmoke;
+  height: 25px;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+}
+
+#other-stuff {
+  width: 100%;
+  position: relative;
+  // background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 h2 {
